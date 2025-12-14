@@ -1,5 +1,6 @@
 package ogrenciderskayitsistemi;
 
+//Eğitmen bilgilerini temsil eder
 	public class Instructor {
 
 	    private int instructorId;
