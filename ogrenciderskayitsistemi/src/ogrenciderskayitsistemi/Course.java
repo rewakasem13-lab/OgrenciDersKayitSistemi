@@ -1,11 +1,12 @@
 package ogrenciderskayitsistemi;
 
+//Ders bilgilerini ve ders programını tutar
 	public class Course {
 
 	    private String courseId;
 	    private String courseName;
 	    private int credits;
-	    private String schedule;      // مثال: "Mon 10-12"
+	    private String schedule;      
 	    private Instructor instructor;
 
 	    public Course(String courseId, String courseName, int credits, String schedule) {
