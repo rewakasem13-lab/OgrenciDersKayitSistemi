@@ -1,5 +1,6 @@
 package ogrenciderskayitsistemi;
 
+//Yüksek lisans öğrencileri için özel harç hesaplama işlemleri içerir
 	public class GraduateStudent extends Student {
 
 	    public GraduateStudent(int id, String name, String major) {
@@ -8,7 +9,7 @@ package ogrenciderskayitsistemi;
 
 	    @Override
 	    public double calculateTuition() {
-	        // طالب ماجستير يدفع أكثر
+	      
 	        return getEnrolledCourses().size() * 800.0;
 	    }
 	}
