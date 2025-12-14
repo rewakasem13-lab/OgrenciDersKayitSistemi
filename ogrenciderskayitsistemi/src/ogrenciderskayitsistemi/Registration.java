@@ -1,5 +1,6 @@
 package ogrenciderskayitsistemi;
 
+//Öğrencinin ders kayıt ve silme işlemlerini yönetir
 public class Registration implements Registrable {
 
     @Override
@@ -8,12 +9,12 @@ public class Registration implements Registrable {
             return false;
         }
 
-        // منع التسجيل بنفس المادة
+        
         if (student.getEnrolledCourses().contains(course)) {
             return false;
         }
 
-        // منع تضارب الوقت
+        
         if (hasScheduleConflict(student, course)) {
             return false;
         }
@@ -29,7 +30,7 @@ public class Registration implements Registrable {
         return student.removeCourse(course);
     }
 
-    // فحص تعارض الوقت (بسيط)
+    
     private boolean hasScheduleConflict(Student student, Course newCourse) {
         for (Course c : student.getEnrolledCourses()) {
             if (c.getSchedule().equals(newCourse.getSchedule())) {
