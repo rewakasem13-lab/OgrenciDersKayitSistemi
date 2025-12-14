@@ -3,7 +3,7 @@ package ogrenciderskayitsistemi;
 
 	import java.util.ArrayList;
 	import java.util.List;
-
+	// Bu sınıf öğrenciyi ve kayıtlı derslerini temsil eder
 	public class Student {
 
 	    private int id;
@@ -34,18 +34,18 @@ package ogrenciderskayitsistemi;
 	        return enrolledCourses;
 	    }
 
-	    // إضافة مادة (مع منع التكرار)
+	   
 	    public boolean addCourse(Course course) {
 	        if (course == null) {
 	            return false;
 	        }
 	        if (enrolledCourses.contains(course)) {
-	            return false; // نفس المادة مسجّلة
+	            return false; 
 	        }
 	        return enrolledCourses.add(course);
 	    }
 
-	    // حذف مادة
+	   
 	    public boolean removeCourse(Course course) {
 	        if (course == null) {
 	            return false;
@@ -53,14 +53,14 @@ package ogrenciderskayitsistemi;
 	        return enrolledCourses.remove(course);
 	    }
 
-	    // حساب الرسوم (طالب عادي)
+	    
 	    public double calculateTuition() {
 	        return enrolledCourses.size() * 500.0;
 	    }
 
-	    // حساب GPA (بسيط – اختياري)
+	    
 	    public double gpaHesapla() {
-	        // لاحقًا يمكن تطويره، حاليًا نرجّع قيمة افتراضية
+	        
 	        return 0.0;
 	    }
 	}
