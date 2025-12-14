@@ -3,6 +3,8 @@ package ogrenciderskayitsistemi;
 import java.util.ArrayList;
 import java.util.List;
 
+//Sistemdeki derslerin yönetimini sağlar
+
 public class CourseCatalog {
 
     private List<Course> courses;
