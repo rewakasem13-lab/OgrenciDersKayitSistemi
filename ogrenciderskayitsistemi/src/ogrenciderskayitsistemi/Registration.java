@@ -31,7 +31,7 @@ public class Registration implements Registrable {
         return student.removeCourse(course);
     }
 
-    
+ // Ders saat çakışmasını kontrol eder ve çakışma varsa kayıt işlemini engeller
     private boolean hasScheduleConflict(Student student, Course newCourse) {
         for (Course c : student.getEnrolledCourses()) {
             if (c.getSchedule().equals(newCourse.getSchedule())) {
