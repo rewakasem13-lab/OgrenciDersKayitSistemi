@@ -22,7 +22,7 @@ public class CourseCatalog {
     public List<Course> listCourses() {
         return courses;
     }
-
+ // Ders koduna göre katalogdan ders arar
     public Course findCourse(String courseId) {
         for (Course c : courses) {
             if (c.getCourseId().equals(courseId)) {
