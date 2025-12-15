@@ -5,6 +5,7 @@ public class Registration implements Registrable {
 
     @Override
  // Aynı dersin birden fazla kez kayıt edilmesini engeller
+ // Kayıt işlemi sırasında sırasıyla null kontrolü, tekrar eden ders ve saat çakışması kontrol edilir
     public boolean register(Student student, Course course) {
         if (student == null || course == null) {
             return false;
