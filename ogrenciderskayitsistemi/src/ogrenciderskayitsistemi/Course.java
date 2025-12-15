@@ -39,5 +39,17 @@ package ogrenciderskayitsistemi;
 	    public void setInstructor(Instructor instructor) {
 	        this.instructor = instructor;
 	    }
+	    @Override
+	    public boolean equals(Object o) {
+	        if (this == o) return true;
+	        if (o == null || getClass() != o.getClass()) return false;
+	        Course course = (Course) o;
+	        return courseId != null && courseId.equals(course.courseId);
+	    }
+
+	    @Override
+	    public int hashCode() {
+	        return courseId != null ? courseId.hashCode() : 0;
+	    }
 	}
 
