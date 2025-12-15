@@ -34,7 +34,7 @@ package ogrenciderskayitsistemi;
 	        return enrolledCourses;
 	    }
 
-	   
+	 // Öğrenciye yeni ders ekler
 	    public boolean addCourse(Course course) {
 	        if (course == null) {
 	            return false;

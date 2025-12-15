@@ -27,7 +27,7 @@ package ogrenciderskayitsistemi;
 	    public int getCredits() {
 	        return credits;
 	    }
-
+	 // Dersin haftalık programını döndürür
 	    public String getSchedule() {
 	        return schedule;
 	    }
