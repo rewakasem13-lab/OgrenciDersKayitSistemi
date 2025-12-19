@@ -8,6 +8,7 @@ package ogrenciderskayitsistemi;
 	    }
 
 	    @Override
+	 // Yüksek lisans öğrencileri için farklı harç hesaplaması uygular
 	    public double calculateTuition() {
 	      
 	        return getEnrolledCourses().size() * 800.0;
