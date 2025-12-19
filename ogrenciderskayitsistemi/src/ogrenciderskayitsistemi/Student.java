@@ -53,7 +53,7 @@ package ogrenciderskayitsistemi;
 	        return enrolledCourses.remove(course);
 	    }
 
-	    
+	 // Öğrencinin kayıtlı ders sayısına göre harç hesaplar
 	    public double calculateTuition() {
 	        return enrolledCourses.size() * 500.0;
 	    }
