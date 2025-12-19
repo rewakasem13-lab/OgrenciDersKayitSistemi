@@ -25,6 +25,7 @@ public class Registration implements Registrable {
     }
 
     @Override
+ // Öğrencinin kayıtlı olduğu dersi sistemden siler
     public boolean drop(Student student, Course course) {
         if (student == null || course == null) {
             return false;
