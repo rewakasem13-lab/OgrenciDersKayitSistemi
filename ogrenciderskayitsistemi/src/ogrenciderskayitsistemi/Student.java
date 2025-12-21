@@ -21,7 +21,7 @@ package ogrenciderskayitsistemi;
 	    public int getId() {
 	        return id;
 	    }
-
+	 // Öğrencinin adını döndürür
 	    public String getName() {
 	        return name;
 	    }
