@@ -23,7 +23,7 @@ package ogrenciderskayitsistemi;
 	    public String getCourseName() {
 	        return courseName;
 	    }
-	 // Dersin kredi bilgisini döndürür
+	 // Dersin kredi bilgisini döndürür.
 	    public int getCredits() {
 	        return credits;
 	    }
