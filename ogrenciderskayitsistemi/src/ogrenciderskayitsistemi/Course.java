@@ -35,7 +35,7 @@ package ogrenciderskayitsistemi;
 	    public Instructor getInstructor() {
 	        return instructor;
 	    }
-
+	 // Derse eğitmen atar
 	    public void setInstructor(Instructor instructor) {
 	        this.instructor = instructor;
 	    }
