@@ -19,7 +19,7 @@ package ogrenciderskayitsistemi;
 	    public String getCourseId() {
 	        return courseId;
 	    }
-
+	 // Ders adını döndürür
 	    public String getCourseName() {
 	        return courseName;
 	    }
