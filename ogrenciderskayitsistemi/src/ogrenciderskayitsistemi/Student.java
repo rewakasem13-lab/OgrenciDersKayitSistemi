@@ -45,7 +45,7 @@ package ogrenciderskayitsistemi;
 	        return enrolledCourses.add(course);
 	    }
 
-	   
+	 // Öğrencinin kayıtlı derslerden birini siler
 	    public boolean removeCourse(Course course) {
 	        if (course == null) {
 	            return false;
