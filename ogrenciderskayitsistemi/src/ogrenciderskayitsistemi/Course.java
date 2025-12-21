@@ -31,7 +31,7 @@ package ogrenciderskayitsistemi;
 	    public String getSchedule() {
 	        return schedule;
 	    }
-
+	 // Dersin eğitmen bilgisini döndürür
 	    public Instructor getInstructor() {
 	        return instructor;
 	    }
