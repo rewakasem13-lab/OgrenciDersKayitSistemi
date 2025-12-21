@@ -2,7 +2,7 @@ package ogrenciderskayitsistemi;
 
 
 	import java.util.ArrayList;
-	import java.util.List;
+    import java.util.List;
 	// Bu sınıf öğrenciyi ve kayıtlı derslerini temsil eder
 	public class Student {
 
