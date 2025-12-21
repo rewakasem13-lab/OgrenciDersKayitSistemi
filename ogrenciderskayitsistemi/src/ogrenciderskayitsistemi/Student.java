@@ -29,7 +29,7 @@ package ogrenciderskayitsistemi;
 	    public String getMajor() {
 	        return major;
 	    }
-
+	 // Öğrencinin kayıtlı olduğu dersleri döndürür
 	    public List<Course> getEnrolledCourses() {
 	        return enrolledCourses;
 	    }
