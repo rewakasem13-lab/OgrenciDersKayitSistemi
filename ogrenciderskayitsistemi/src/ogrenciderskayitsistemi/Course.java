@@ -51,5 +51,10 @@ package ogrenciderskayitsistemi;
 	    public int hashCode() {
 	        return courseId != null ? courseId.hashCode() : 0;
 	    }
+	    @Override
+	    public String toString() {
+	        return courseName + " (" + courseId + ") - " + schedule;
+	    }
+
 	}
 
